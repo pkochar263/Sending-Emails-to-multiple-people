@@ -1,4 +1,5 @@
-# Sending-Emails-to-multiple-people
+# Sending-Emails-to-multiple-people # GMAIL 
+# Allow less secure app in gmail setting
 #some time we need to send multiple email with same body #like sending resume to hr heads
 
 #Sending Emails to different people with same body, Email id from Excel sheet
