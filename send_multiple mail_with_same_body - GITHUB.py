@@ -20,7 +20,7 @@ for x in range(3,221):  #FROM WHICH ROW TO WHICH ROW EMAIL ID'S ARE PRESENT # in
     email_send = mail_1
     print(mail_1)
     email_user = 'USER_NAME' #PUT YOUR GMAIL USER NAME HERE
-    email_password = 'PASSWORD' $PUT YOUR PASSWORD HERE
+    email_password = 'PASSWORD' #PUT YOUR PASSWORD HERE
 
 
     subject = 'SUBJECT OF MAIL' #PUT SUBJECT OF MAIL HERE
@@ -37,7 +37,7 @@ for x in range(3,221):  #FROM WHICH ROW TO WHICH ROW EMAIL ID'S ARE PRESENT # in
                  #PASTE YOUR BODY TEXT IN HTML FORMAT HERE
                  # IF YPU DON'T KNOW HTML , DON'T WORRY.
                  # TYPE IN MS-WORD DOCUMENT AND SAVE THAT AS HTML DOC
-                 #OPEN THAT HTML FILE IN NOTE PAD AND COPY PASTE IN BETWEEN HTML TAGS 
+                 #OPEN THAT HTML FILE IN NOTEPAD AND COPY PASTE IT IN BETWEEN HTML TAGS 
                        
 </HTML>
                 """
@@ -61,5 +61,5 @@ for x in range(3,221):  #FROM WHICH ROW TO WHICH ROW EMAIL ID'S ARE PRESENT # in
     server.starttls()
     server.login(email_user, email_password)
     server.sendmail(email_user, email_send, text)
-    time.sleep(10)
+    time.sleep(10) # PROVIDING REST OF 10SEC BETWEEN TO MAILS
 server.quit()
