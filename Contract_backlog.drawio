@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T13:50:55.418Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="gcku1GceSn-8R9Rm7kbs" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-30T13:54:54.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="CFRRVSIm_-u5AgZu8XHj" version="13.7.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,6 +132,33 @@
         </mxCell>
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-34" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="890" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-35" value="Current Status in database is not same as excel status?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="232.5" y="940" width="135" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-36" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h_fVHSr5ekB-Ulk5fUjJ-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="367.5" y="1067.5" as="sourcePoint" />
+            <mxPoint x="438.21067811865476" y="1017.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-37" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300.29" y="1095" as="sourcePoint" />
+            <mxPoint x="300" y="1141" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="1105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-38" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="1095" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-39" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="990" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-40" value="Exception - Target status is same as current status, can&#39;t be treated as an update" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="977.5" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
