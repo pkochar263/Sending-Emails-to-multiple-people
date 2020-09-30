@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T13:40:48.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="g4-ajYajZY3DFo7lw7-d" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-30T13:43:47.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="zbfVLdlYRnWTbJUjpmaw" version="13.7.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,11 @@
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-5" value="&quot;Exception - data has not processed as target date is missing&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="440" y="127.5" width="160" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h_fVHSr5ekB-Ulk5fUjJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-9" value="is Target status missing ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="240" y="430" width="120" height="100" as="geometry" />
         </mxCell>
@@ -56,17 +61,29 @@
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-12" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="h_fVHSr5ekB-Ulk5fUjJ-13">
           <mxGeometry x="-1" y="-72" relative="1" as="geometry">
             <mxPoint x="-40" y="-12" as="offset" />
-            <mxPoint x="365" y="460" as="sourcePoint" />
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="410" y="480" />
+              <mxPoint x="410" y="480" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-13" value="&quot;Exception - data has not processed as target status is missing&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="455" y="420" width="160" height="80" as="geometry" />
+          <mxGeometry x="455" y="440" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-14" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;strokeColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-0.5556" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="375" y="470" as="sourcePoint" />
-            <mxPoint x="465" y="470" as="targetPoint" />
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-17" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="0.0769" y="272" relative="1" as="geometry">
+            <mxPoint x="-112" y="-220" as="offset" />
+            <mxPoint x="680" y="535" as="sourcePoint" />
+            <mxPoint x="680" y="585" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-19" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1" y="108" relative="1" as="geometry">
+            <mxPoint x="-60" y="18" as="offset" />
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
