@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-01T12:50:04.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="88HS6ISXWdUPUz9F2Atj" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-01T12:59:04.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="-gU4DMrdwKYD_RTyDca5" version="13.7.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -127,13 +127,13 @@
             <mxPoint x="290" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-68" value="Exception&amp;nbsp; - Exception - Multiple Current Status Found in database" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-68" value="update comments -- Exception - Multiple Current Status Found in database&amp;nbsp;&lt;br&gt;and update the data of excel in database" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="672.5" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-69" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290" y="790" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-70" value="Current Status in database is same as excel status?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-70" value="Current Status in database is not same as excel status?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="222.5" y="840" width="135" height="155" as="geometry" />
         </mxCell>
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-71" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h_fVHSr5ekB-Ulk5fUjJ-70">
@@ -151,13 +151,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-73" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="995" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-74" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="890" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-75" value="if Current Regional target Date in database is null?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-75" value="SCB TARGET AND ESCEL TARGET STATUS is same?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="222.5" y="1040" width="135" height="155" as="geometry" />
         </mxCell>
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-76" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h_fVHSr5ekB-Ulk5fUjJ-75">
@@ -183,6 +177,39 @@
         </mxCell>
         <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-82" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290" y="1195" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-83" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="995" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-84" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="870" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-85" value="scb target date&amp;gt; excel date" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="222.5" y="1260" width="135" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-86" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1415" as="sourcePoint" />
+            <mxPoint x="290" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-87" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="1415" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-88" value="update in database + update comments traget date extanded this to this&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="1480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-90" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="1300" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-91" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1337" as="sourcePoint" />
+            <mxPoint x="430.71067811865487" y="1337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_fVHSr5ekB-Ulk5fUjJ-93" value="update in database" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="432.5" y="1297.5" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
